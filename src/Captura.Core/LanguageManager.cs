@@ -18,7 +18,7 @@ namespace Captura
         {
             LangDir = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "Languages");
 
-            DefaultLanguage = LoadLang("en");
+            DefaultLanguage = LoadLang("zh-CN");
 
             var cultures = new List<CultureInfo>();
 

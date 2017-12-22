@@ -18,16 +18,10 @@
                            LineHeight="30"
                            Style="{StaticResource TextColor}">
                     <Run FontSize="20" Text="{local:Loc AppName}"/> <Run Text="{Binding AppVersion, Mode=OneWay}"/><LineBreak/>
-                    (c) 2017 <Hyperlink CommandParameter="https://github.com/MathewSachin">Mathew Sachin</Hyperlink>
+                    (c) 2017 <Hyperlink CommandParameter="https://github.com/gzcassan/Captura">GZCASSAN</Hyperlink>
                 </TextBlock>
 
-                <TextBlock DockPanel.Dock="Bottom"
-                           HorizontalAlignment="Right"
-                           Margin="0,0,0,10">
-                    <Hyperlink CommandParameter="https://github.com/MathewSachin/Captura/wiki/Translation">
-                        <Run Text="{local:Loc WantToTranslate}"/>
-                    </Hyperlink>
-                </TextBlock>
+               
 
                 <Grid Margin="0,10">
                     <Grid.ColumnDefinitions>
@@ -39,21 +33,21 @@
                         <RowDefinition/>
                     </Grid.RowDefinitions>
                     <Button Command="{Binding HyperlinkCommand}"
-                            CommandParameter="https://github.com/MathewSachin/Captura/"
+                            CommandParameter="https://github.com/gzcassan/Captura"
                             Content="{local:Loc Source}"
                             Margin="3"/>
                     <Button Command="{Binding HyperlinkCommand}"
-                            CommandParameter="https://github.com/MathewSachin/Captura/wiki/Changelog"
+                            CommandParameter="https://github.com/gzcassan/Captura/wiki/Changelog"
                             Content="{local:Loc Changelog}"
                             Grid.Column="1"
                             Margin="3"/>
                     <Button Command="{Binding HyperlinkCommand}"
-                            CommandParameter="https://github.com/MathewSachin/Captura/wiki/Donate"
+                            CommandParameter="https://github.com/gzcassan/Captura/wiki/Donate"
                             Content="{local:Loc Donate}"
                             Grid.Row="1"
                             Margin="3"/>
                     <Button Command="{Binding HyperlinkCommand}"
-                            CommandParameter="https://github.com/MathewSachin/Captura/wiki"
+                            CommandParameter="https://github.com/gzcassan/Captura/wiki"
                             Content="{local:Loc Help}"
                             Grid.Row="1"
                             Grid.Column="1"
